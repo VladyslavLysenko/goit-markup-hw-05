@@ -145,6 +145,7 @@ position: relative;
     justify-content: center;
     align-content: center;
     line-height: 1.14;
+    font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-wh-color);
@@ -331,6 +332,12 @@ margin-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+
+.modal-close-btn:hover{
+    fill: var(--accent-color);
 }
 
 .is-hidden {
